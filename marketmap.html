@@ -1,22 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Farmer's Markets Map</title>
-	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-	<link rel="stylesheet" type="text/css" href="market map.css">
-	<script src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
-</head>
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+   <head profile="http://gmpg.org/xfn/11">
 
-<body>
+      <title>Farmers' Markets near Towson</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-	<h1>Farmer's Markets Around Towson</h1>
+       <link rel="stylesheet" href="leaflet/leaflet.css" /><link rel="stylesheet" type="text/css" href="style.css">
+      <script src="leaflet/leaflet.js"></script>
+      <script src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
+   </head>
 
-	<p> This week is National Farmer's Markets Week. <a href="http://data.baltimoresun.com/maps/farmers-market/">The Baltimore Sun</a>'s data desk already put together an interactive map of <br>markets around the Baltimore area. So here's a map specific to Maryland's Towson area.</p>
+   <body>
+      <h1>Farmers' Markets in Baltimore County</h1>
 
-	<div id="map" style="height: 450px; border: 1px solid #c6c7c1;"; ></div>
+      <p> This week is National Farmers' Markets Week. <a href="http://data.baltimoresun.com/maps/farmers-market/">The Baltimore Sun</a>'s data desk has put together an interactive map of markets around the city. <br><br> For those looking for an even more localized version, here's a map specific to Baltimore County's Towson area.</p>
 
-	<script src="market map.js"></script>
+      
+      <div id="map" style="height: 440px; border: 1px solid #AAA;"></div>
 
-</body>
+      <p><small>Aysha Khan studies multiplatform journalism at the University of Maryland. Find her <a href="http://twitter.com/@ayshabkhan">@ayshabkhan</a>.</small></p>
+      <script src='markers.json'></script>
+      <script src='map.js'></script>
+   </body>
 </html>
