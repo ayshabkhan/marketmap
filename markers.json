@@ -1,0 +1,43 @@
+
+markers = [
+   {
+     "name": "Towson Farmers' Market",
+     "location": "Alleghany Avenue",
+     "time": "Thursdays, 10:45 a.m.-3 p.m.",
+     "url": "https://www.facebook.com/pages/Towson-Farmers-Market/130456253678174",
+     "lat": 39.401958,
+     "lng": -76.6382268
+   },
+   {
+     "name": "Kenilworth Farmers' Market",
+     "location": "Parking Lot of the Shops at Kenilworth",
+     "time": "Tuesdays through November, 3:30-6:30 p.m.",
+     "url": "https://www.facebook.com/pages/Kenilworth-Farmers-Market/115513791856597",
+     "lat": 39.3888884,
+     "lng": -76.6752724
+   },
+  {
+     "name": "Govanstowne Farmers' Market",
+     "location": "5104 York Road",
+     "time": "Wednesdays, 3-7 p.m.",
+     "url": "https://govansmarket.org",
+     "lat": 39.351154,
+     "lng": -76.6127008
+   },
+  {
+     "name": "Boordy Vineyards Farmers' Market",
+     "location": "12820 Long Green Pike, Hydes",
+     "time": "Thursdays through Sept. 25, 4-8 p.m.",
+     "url": "http://www.boordy.com/page-332900/Events-At-Boordy.html",
+     "lat": 39.476708,
+     "lng": -76.5184048
+   },
+  {
+     "name": "Baltimore County Farmers' Market",
+     "location": "Maryland State Fairgrounds",
+     "time": "Wednesdats, 10 a.m.-1 p.m. through Oct. 29",
+     "url": "http://www.enjoybaltimorecounty.com/play/baltimore-county-farmers-market",
+     "lat": 39.4474413,
+     "lng": -76.6985416
+   }     
+];
