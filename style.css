@@ -1,10 +1,14 @@
 h1 {
-    font-family:Bitter;
+    font-family: Bitter;
     text-align: center;
-    color: #c6c7c1;
+    color: #e7f3f5;
 }
 
 p {
 	font-family:"DistrictThin";
 	text-align: center;
+}
+
+body {
+	background-color: #bdd6d9;
 }
